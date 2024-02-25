@@ -1,0 +1,89 @@
+body {
+    margin: 5;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: url('C:/Users/child of god/Downloads/pngtree-blood-donation-art-free-simple-white-banner-image_180424.jpg') center/cover no-repeat;
+    color: #0a0909;
+    /* Change text color to white for better contrast */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120vh;
+}
+
+.container {
+    width: 30%;
+    /* Adjust the width as needed */
+    background: rgba(255, 255, 255, 0.4);
+    /* Transparent white background */
+    padding: 15px;
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+    /* Optional: Add a subtle white box shadow for better visibility */
+}
+
+h1 {
+    text-align: center;
+    color: #0d0a0a;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #060606;
+}
+
+input {
+    padding: 4px;
+    margin-bottom: 5px;
+    border: 1px solid #050505;
+    border-radius: 2px;
+}
+
+button {
+    background-color: hsl(0, 29%, 6%);
+    color: #e8e5e5;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: hsl(348, 92%, 42%);
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.logo img {
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.login-link {
+    text-align: center;
+    /* Center the text */
+    margin-top: 10px;
+}
+
+.login-link p {
+    color: #0d0a0a
+}
+
+.login-link a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
